@@ -1,43 +1,5 @@
 title: Sacred Self Ayurveda
 description: Discover Balance & Well-Being Through Ayurveda
 remote_theme: pages-themes/cayman@v0.2.0
-
-<style>
-    /* Style the custom navigation bar */
-    .custom-nav {
-        background-color: #333;  /* Match the theme's colors */
-        padding: 10px 0;  /* Add some padding */
-    }
-
-    .custom-nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;  /* Horizontally align menu items */
-        justify-content: center;  /* Center the items */
-    }
-
-    .custom-nav ul li {
-        margin: 0 15px;
-    }
-
-    .custom-nav ul li a {
-        color: white;  /* White text color */
-        text-decoration: none;  /* Remove underline */
-        padding: 8px 16px;
-        display: block;
-    }
-
-    .custom-nav ul li a:hover {
-        background-color: #575757;  /* Slightly darker on hover */
-        border-radius: 4px;  /* Add a little rounding */
-    }
-
-    /* Ensure the custom navigation is placed below the header */
-    .custom-nav {
-        margin-top: 20px;  /* Add some space below the header */
-    }
-</style>
-
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
