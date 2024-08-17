@@ -47,15 +47,16 @@ Feel free to reach out and connect. I look forward to sharing insights, offering
 approach to wellness tailored just for you.
 </p>
 
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openInfo(event, 'Bio')">Bio</button>
-  <button class="tablinks" onclick="openInfo(event, 'Credentials')">Credentials</button>
+<br> <hr> <br>
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openAbout('Bio')">Bio</button>
+  <button class="w3-bar-item w3-button" onclick="openAbout('Credentials')">Credentials</button>
 </div>
 
-<!-- Tab content -->
-<div id="Bio" class="tabcontent">
-  <h3>Bio</h3>
+<div id="Bio" class="w3-container w3-display-container about">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
   <h2>How I Found Ayurveda</h2>
     <p>
       I was first introduced to yoga as a child in the mid-1990's at an open house for a wellness studio in Holland, Michigan.
@@ -94,8 +95,10 @@ approach to wellness tailored just for you.
     </p>
 </div>
 
-<div id="Credentials" class="tabcontent">
-  <h3>Credentials</h3>
+<div id="Credentials" class="w3-container w3-display-container about">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Credentials</h2>
   <p><b>Certifications:</b><br>
     Ayurvedic Practitioner, YogaVeda Institute <i>(in progress)</i><br>
     <br>
@@ -112,9 +115,19 @@ approach to wellness tailored just for you.
     Usui Reiki - Level 1 Practitioner, 2013<br>
     Sustainable Agriculture Certificate, Lenoir Community College, 2015<br>
     BA International Relations, Grand Valley State University, 2009<br>
-  </p>
-
+  </p> 
 </div>
+
+<script>
+function openAbout(aboutName) {
+  var i;
+  var x = document.getElementsByClassName("about");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(aboutName).style.display = "block";  
+}
+</script>
     
 </body>
 </html>
