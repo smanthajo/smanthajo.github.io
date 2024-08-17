@@ -3,7 +3,7 @@ description: Discover Balance & Well-Being Through Ayurveda in the heart of West
 theme: minima
 #remote_theme: jekyll/minima
 Minima:
-  skin: auto
+  skin: solarized
 plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme # add this line to the plugins list if you already have one
