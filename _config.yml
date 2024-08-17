@@ -2,7 +2,6 @@ title: Sacred Self Ayurveda
 description: Discover Balance & Well-Being Through Ayurveda <br> in the heart of West Michigan
 remote_theme: jekyll/minima
 Minima:
-minima:
   skin: auto
 plugins:
 - jekyll-seo-tag
